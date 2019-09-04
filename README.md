@@ -16,12 +16,13 @@ My cheat sheet for the git/fork/branch workflow.
 4. Work. Work. Work.
 5. `git push origin branch`
 6. Create PR
-7. `git pull upstream master`
-8. `git branch -d branch` (or `-D` if necessary)
-9. `git push origin master`
-10. `git push --delete origin branch`
-11. `git pull upstream master`
-12. `git push origin master`
+7. `git checkout master`
+8. `git pull upstream master`
+9. `git branch -d branch` (or `-D` if necessary)
+10. `git push origin master`
+11. `git push --delete origin branch`
+12. `git pull upstream master`
+13. `git push origin master`
 
 _quod erat demonstrandum_
 
