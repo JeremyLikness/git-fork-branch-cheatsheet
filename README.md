@@ -1,14 +1,14 @@
 # git-fork-branch-cheatsheet
 
-My cheat sheet for the git/fork/branch workflow.
+My cheat sheet 📜 for the git/fork/branch workflow.
 
-## Set up
+## ⚙ Set up
 
 1. Fork it
 2. `git clone <forked repo>`
 3. `git remote add upstream <original repo>.git`
 
-## Workflow
+## 🔃 Workflow
 
 1. `git pull upstream master`
 2. `git push origin master`
@@ -25,7 +25,7 @@ My cheat sheet for the git/fork/branch workflow.
 13. `git pull upstream master`
 14. `git push origin master`
 
-## Get out of Jail, Free
+## 🆘 Get out of Jail, Free
 
 (when things go wrong, force fork to sync with upstream)
 
@@ -34,4 +34,3 @@ My cheat sheet for the git/fork/branch workflow.
 3. `git push origin master --force`
 
 _quod erat demonstrandum_
-
