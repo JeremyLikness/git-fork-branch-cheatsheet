@@ -29,6 +29,8 @@ My cheat sheet 📜 for the git/fork/branch workflow.
 
 (when things go wrong, force fork to sync with upstream)
 
+⚠ **WARNING** only do this if you do _not_ have pending commits. They will be obliterated!
+
 1. `git fetch upstream`
 2. `git reset --hard upstream/master`
 3. `git push origin master --force`
