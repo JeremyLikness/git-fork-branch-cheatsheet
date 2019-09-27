@@ -25,5 +25,13 @@ My cheat sheet for the git/fork/branch workflow.
 13. `git pull upstream master`
 14. `git push origin master`
 
+## Get out of Jail, Free
+
+(when things go wrong, force fork to sync with upstream)
+
+1. `git fetch upstream`
+2. `git reset --hard upstream/master`
+3. `git push origin master --force`
+
 _quod erat demonstrandum_
 
